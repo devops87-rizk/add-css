@@ -1,3 +1,23 @@
-h1 {
-    color: green;
+body {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+}
+/* h1 {
+    color: green; */
+}
+.font-family {
+    font-family: "Caveat", cursive;
+}
+.font-color {
+    color: coral;
+}
+.font-size {
+    font-size: 2rem;
+}
+.font-weight {
+    font-weight: 900;
+}
+.text-align {
+    text-align: right;
 }
