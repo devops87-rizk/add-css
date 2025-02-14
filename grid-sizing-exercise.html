@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercise</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-rows: repeat(2, 75px) 150px;
+            grid-template-columns: auto 400px minmax(200px, 500px);
+            grid-auto-rows: 50px;
+        }
+
+        .grid-item {
+            background-color: green;
+            color: white;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">width expands to fill space</div>
+        <div class="grid-item">400px wide</div>
+        <div class="grid-item">min 200px max 500px wide</div>
+        <div class="grid-item">50px high</div>
+    </div>
+    
+</body>
+</html>
